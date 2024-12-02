@@ -38,7 +38,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-gray-100 dark:bg-gray-800 px-6 py-4 shadow-md">
+      <nav className="bg-gray-100 dark:bg-gray-800 px-6 py-4 shadow-md sticky top-0">
         <div className="flex justify-between items-center">
           {/* Brand */}
           <h1 className="text-xl font-bold text-gray-800 dark:text-gray-100">Brand</h1>
@@ -61,19 +61,16 @@ const Navbar = () => {
           </div>
 
           {/* Theme Toggle Button */}
-          <button
-            onClick={toggleTheme}
-            className="hidden md:flex items-center gap-2 px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-md shadow-md"
-          >
+          <button onClick={toggleTheme} className="hidden md:flex items-center gap-2 px-4 py-2  rounded-md ">
             {theme === "light" ? (
               <>
                 <span>🌞</span>
-                <span>Light Mode</span>
+                <span>Dark Mode</span>
               </>
             ) : (
               <>
                 <span>🌜</span>
-                <span>Dark Mode</span>
+                <span className="text-white">Light Mode</span>
               </>
             )}
           </button>
@@ -123,19 +120,16 @@ const Navbar = () => {
           ))}
 
           {/* Theme Toggle Button */}
-          <button
-            onClick={toggleTheme}
-            className="flex items-center gap-2 px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-md shadow-md"
-          >
+          <button onClick={toggleTheme} className="flex items-center gap-2 px-4 py-2 ">
             {theme === "light" ? (
               <>
                 <span>🌞</span>
-                <span>Light Mode</span>
+                <span>Dark Mode</span>
               </>
             ) : (
               <>
                 <span>🌜</span>
-                <span>Dark Mode</span>
+                <span className="text-white">Light Mode</span>
               </>
             )}
           </button>

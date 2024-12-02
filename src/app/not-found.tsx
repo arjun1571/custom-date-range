@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import noDataFound from "../@assets/noDataFound.png";
+import Button from "@/components/core/Button/Button";
 
 export default function NotFound() {
   return (
@@ -13,11 +14,8 @@ export default function NotFound() {
         Sorry, the page you are looking for doesn’t exist or has been moved.
       </p>
       {/* Return Home Button */}
-      <Link
-        href="/"
-        className="px-6 py-3 bg-blue-600 text-white rounded-md shadow-md hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-300 transition"
-      >
-        Return to Home
+      <Link href="/">
+        <Button label="Return to Home" variant="primary" />
       </Link>
     </div>
   );
