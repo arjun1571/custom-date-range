@@ -31,7 +31,7 @@ const Footer = () => {
           <h3 className="text-lg font-bold mb-4">Follow Us</h3>
           <div className="flex space-x-4">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/arjun.das.31457/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
@@ -41,7 +41,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/arjundasbd/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
@@ -51,7 +51,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/arjun1571"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
