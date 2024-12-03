@@ -38,7 +38,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-gray-100 dark:bg-gray-800 px-6 py-4 shadow-md sticky top-0">
+      <nav className="bg-gray-100 dark:bg-gray-800 px-6 py-4 shadow-md sticky top-0 z-50">
         <div className="flex justify-between items-center">
           {/* Brand */}
           <h1 className="text-xl font-bold text-gray-800 dark:text-gray-100">Brand</h1>
