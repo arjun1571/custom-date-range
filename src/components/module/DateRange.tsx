@@ -32,7 +32,7 @@ export default function DateRange() {
 
   return (
     <>
-      <div className="flex md::items-end md:justify-end items-center justify-center md:px-10 px-0 md:mt-20 mt-10">
+      <div className="flex md::items-end md:justify-end items-center justify-center md:px-10 px-0 md:mt-14 mt-10">
         <div className="md:w-96 w-72">
           <Select options={options} value={selectedValue} onChange={handleChange} customClassName="max-w-md" />
         </div>
